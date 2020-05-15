@@ -1,0 +1,189 @@
+/* roboto-regular - latin_cyrillic */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v20-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+    src: local('Roboto'), local('Roboto-Regular'),
+         url('../fonts/roboto-v20-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v20-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v20-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v20-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-v20-latin_cyrillic-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+  
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.inner {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.outer {
+    padding: 10px 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+.header {
+    background: #007765;
+    font-weight: 500;
+}
+
+.logo-img {
+    height: 45px;
+}
+
+.menu {
+    float: right;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.jumbotron {
+    font-weight: 500;
+    height: 330px;
+    background: #007765 url("../img/bg.jpg") 50% 50% no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.jumbotron-title {
+    font-size: 72px;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.proble {
+    background: #eee;
+}
+
+.problem-title {
+    margin-top: 20px;
+    font-size: 64px;
+    font-weight: 500;
+    text-align: center;
+    color: #007765;
+}
+
+.problem-text {
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+.hero {
+    background: #007765 url("../img/bg2.jpg") 50% 50% no-repeat;
+    height: 370px;
+}
+
+.hero .inner {
+    position: relative;
+    height: 100%;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 500;
+    font-style: italic;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    width: 80%;
+    text-align: center;
+}
+
+.ppc-title {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 500;
+    color: #007765;
+}
+
+.ppc-block {
+    padding-top: 20px;
+}
+
+.ppc-block-img {
+    width: 115px;
+    height: 115px;
+    float: left;
+}
+
+.ppc-block-text {
+    margin-left: 165px;
+}
+
+.ppc-block-text, .ppc-text {
+    font-size: 32px;
+}
+
+.team {
+    background-color: #eee;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.team-title {
+    text-align: center;
+    font-size: 64px;
+    font-weight: 500;
+    color: #007765;
+}
+
+.team-card {
+    float: left;
+    width: 350px;
+    text-align: center;
+}
+
+
+.team-card {
+    margin: 10px;
+}
+
+.team-card-foto {
+    width: 168px;
+    height: 168px;
+}
+
+.team-card-name {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #007765;
+}
+
+.team-card-position {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0 50px;
+}
+
+.footer-text {
+    max-width: 540px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+}

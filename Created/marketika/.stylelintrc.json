@@ -1,0 +1,7 @@
+{
+    "extends": ["stylelint-config-htmlacademy", "stylelint-config-standard", "stylelint-config-standard-scss", "stylelint-config-recess-order"],
+    "rules": {
+        "indentation": 4,
+        "number-leading-zero": null
+    }
+}
