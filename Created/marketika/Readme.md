@@ -20,7 +20,7 @@ npm i -g gulp-cli
 Download site source code, build and run site:
 ```
 git clone https://github.com/miptleha/sample-sites.git
-cd Created/marketika
+cd sample-sites/Created/marketika
 npm i
 gulp watch
 ```
