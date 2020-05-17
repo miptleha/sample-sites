@@ -17,10 +17,10 @@ Install command line utility for Gulp:
 npm i -g gulp-cli
 ```
 
-Download site source code, build and run site:
+Build and run site:
 ```
 git clone https://github.com/miptleha/sample-sites.git
-cd Created/freelancer
+cd sample-sites/Created/freelancer
 npm i
 gulp watch
 ```
