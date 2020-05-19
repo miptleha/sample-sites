@@ -1,6 +1,6 @@
 https://miptleha.github.io/sample-sites/Created/mimino/
 
-# Pied Piper landing page
+# Mimino minimal blog
 
 [Open in browser](https://miptleha.github.io/sample-sites/Created/mimino/)
 
