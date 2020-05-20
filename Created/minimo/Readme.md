@@ -4,6 +4,6 @@ https://miptleha.github.io/sample-sites/Created/minimo/
 
 [Open in browser](https://miptleha.github.io/sample-sites/Created/minimo/)
 
-![Minimo](img/Minimo.jpg)
+![Minimo](img/minimo.jpg)
 
 Created from [psd](https://freebiesbug.com/psd-freebies/minimo-minimal-blog-template/)
