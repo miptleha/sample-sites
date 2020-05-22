@@ -63,6 +63,7 @@ header .nav-item a:hover::after {
 
 .grid-card {
     margin-top: 100px;
+    margin-bottom: 200px;
 }
 .grid-card .card {
     margin-bottom: 50px;
@@ -74,4 +75,8 @@ header .nav-item a:hover::after {
 .grid-card .card-body {
     padding-left: 0;
     padding-right: 0;
+}
+
+.wait-me {
+    margin-bottom: 100px;
 }
