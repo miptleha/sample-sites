@@ -63,7 +63,7 @@ header .nav-item a:hover::after {
 
 .grid-card {
     margin-top: 100px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 .grid-card .card {
     margin-bottom: 50px;
@@ -79,4 +79,31 @@ header .nav-item a:hover::after {
 
 .wait-me {
     margin-bottom: 100px;
+}
+
+.email {
+    background-color: #f0f0f0;
+    padding: 70px 0;
+    margin-bottom: 200px;
+}
+.email-header {
+    margin-bottom: 50px;
+    color: #333;
+    font-size: 30px;
+}
+.form-input {
+    position: relative;
+}
+.form-input .form-control {
+    border: 0;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    background-color: transparent;
+    box-shadow: none;
+}
+.form-input .btn {
+    position: absolute;
+    right: 0;
+    top: -10px;
+    font-size: 30px;
 }
