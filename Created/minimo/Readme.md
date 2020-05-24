@@ -1,6 +1,6 @@
 https://miptleha.github.io/sample-sites/Created/minimo/
 
-# Minimo minimal blog
+# Minimal blog
 
 [Open in browser](https://miptleha.github.io/sample-sites/Created/minimo/)
 
