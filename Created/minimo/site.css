@@ -63,10 +63,9 @@ header .nav-item a:hover::after {
 
 .grid-card {
     margin-top: 70px;
-    margin-bottom: 70px;
 }
 .grid-card .card {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     border: 0;
 }
 .grid-card img {
@@ -80,11 +79,14 @@ header .nav-item a:hover::after {
 .wait-me {
     margin-bottom: 100px;
 }
+#load-more-button {
+    box-shadow: none;
+    margin-bottom: 70px;
+}
 
 .email {
     background-color: #f0f0f0;
     padding: 70px 0;
-    margin-bottom: 150px;
 }
 .email-header {
     margin-bottom: 50px;
@@ -113,7 +115,7 @@ footer {
     color: #000;
 }
 footer .footer-inner {
-    padding: 50px 0;
+    padding: 30px 0;
 }
 footer a {
     color: #000;
@@ -130,4 +132,35 @@ footer .footer-right a {
 }
 footer .footer-right a:hover {
     color: #000;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    footer {
+        text-align: center;
+    }
+    footer .footer-left {
+        margin-bottom: 10px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .grid-card img {
+        max-height: auto;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    header .nav-item {
+        margin-left: 10px;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .grid-card img {
+        max-height: 300px;
+    }
 }
