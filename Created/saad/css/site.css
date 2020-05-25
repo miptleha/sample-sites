@@ -11,4 +11,5 @@
 #header .nav-link:hover {
     background: #f4f4f4;
     color: #f97300;
+    border-radius: 4px;
 }
