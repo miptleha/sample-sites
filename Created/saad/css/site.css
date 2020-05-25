@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+    font-family: "Raleway";
+}
+
 #header .navbar {
     background-color: #f97300;
 }
@@ -12,4 +18,42 @@
     background: #f4f4f4;
     color: #f97300;
     border-radius: 4px;
+}
+
+.s-jumbotron {
+    background: url("../images/headerback.jpg") 50% 50% no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    position: relative;
+    padding-left: 30%;
+}
+.s-jumbotron-title {
+    font-size: 2.5rem;
+    color: #f97300;
+    font-weight: 400;
+}
+.s-jumbotron-text {
+    color: #666;
+    font-size: 20px;
+    max-width: 700px;
+}
+.s-jumbotron-btn {
+    border: 1px solid #f97300;
+    background-color: #f97300;
+    color: #f4f4f4;
+}
+.s-jumbotron-wrapper {
+    max-width: 60%;
+    z-index: 2;
+}
+.s-overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, .75);
 }
