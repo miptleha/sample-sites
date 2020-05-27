@@ -2,6 +2,7 @@
 
 body {
     font-family: "Raleway";
+    background-color: #f4f4f4;
 }
 
 #header .navbar {
@@ -29,23 +30,10 @@ body {
     flex-direction: column;
     position: relative;
 }
-.s-jumbotron-title {
-    font-size: 2.5rem;
-    color: #f97300;
-    font-weight: 400;
-}
-.s-jumbotron-text {
-    color: #666;
-    font-size: 20px;
-    max-width: 700px;
-}
-.s-jumbotron-btn {
-    border: 1px solid #f97300;
-    background-color: #f97300;
-    color: #f4f4f4;
-}
 .s-jumbotron .container {
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 .s-overlay {
     position: absolute;
@@ -54,4 +42,50 @@ body {
     top: 0;
     bottom: 0;
     background-color: rgba(255, 255, 255, .79);
+}
+.s-jumbotron-title {
+    font-size: 2.5rem;
+    color: #f97300;
+    font-weight: 400;
+}
+.s-jumbotron-text {
+    font-size: 20px;
+    max-width: 700px;
+}
+.s-jumbotron-btn {
+    border: 1px solid #f97300;
+    background-color: #f97300;
+    color: #f4f4f4;
+}
+
+.s-team {
+    margin-top: 100px;
+}
+.s-team-img {
+    border-radius: 50%;
+    width: 100%;
+}
+.s-team-pos {
+    text-align: center;
+    color: #888;
+}
+.s-team-title {
+    color: #f97300;
+    font-size: 2.5rem;
+    margin: 2rem;
+    text-align: center;
+}
+.s-team-desc {
+    padding: 2rem;
+    border-left: 4px solid #10828C;
+}
+.s-team-name {
+    color: #10828c;
+}
+.s-team-text {
+    line-height: 2em;
+}
+
+.s-fake {
+    margin-top: 100px;
 }
