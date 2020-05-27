@@ -65,36 +65,61 @@ body {
     color: #f4f4f4;
 }
 
-.s-team {
+.s-about {
     margin-top: 100px;
 }
-.s-team-img {
+.s-about-img {
     border-radius: 50%;
     width: 100%;
 }
-.s-team-pos {
-    text-align: center;
-    color: #888;
-}
-.s-team-desc {
+.s-about-desc {
     padding: 2rem;
     border-left: 4px solid #10828C;
 }
-.s-team-name {
+.s-about-name {
     color: #10828c;
 }
-.s-team-text {
+.s-about-text {
     line-height: 2em;
 }
 
 .s-portfolio {
     margin-top: 100px;
 }
-
 .s-portfolio a {
     margin: 1em;
 }
 
-.s-fake {
+.s-blog .card-title {
+    color: #f97300;
+    font-size: 1.5em;
+}
+.s-blog .card {
+    margin-bottom: 1em;
+}
+
+.s-team-member {
+    text-align: center;
+}
+.s-team-pos {
+    text-align: center;
+    color: #888;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.s-mail {
     margin-top: 100px;
+    margin-bottom: 100px;
+}
+.s-mail .s-title {
+    margin-top: 2em;
+}
+.s-mail-right {
+    max-width: 600px;
+}
+.s-mail-btn {
+    color: #f4f4f4;
+    background-color: #f97300;
+    border-color: #f97300;
 }
