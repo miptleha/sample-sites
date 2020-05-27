@@ -1,8 +1,8 @@
-https://miptleha.github.io/sample-sites/Created/freelancer/
+https://miptleha.github.io/sample-sites/freelancer/
 
 # Freelancer webstudio site
 
-[Open in browser](https://miptleha.github.io/sample-sites/Created/freelancer/)
+[Open in browser](https://miptleha.github.io/sample-sites/freelancer/)
 
 ![Freelancer](img/Photo.jpg)
 
@@ -20,7 +20,7 @@ npm i -g gulp-cli
 Build and run site:
 ```
 git clone https://github.com/miptleha/sample-sites.git
-cd sample-sites/Created/freelancer
+cd sample-sites/freelancer
 npm i
 gulp watch
 ```

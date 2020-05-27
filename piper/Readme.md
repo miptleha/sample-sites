@@ -1,8 +1,8 @@
-https://miptleha.github.io/sample-sites/Created/piper/
+https://miptleha.github.io/sample-sites/piper/
 
 # Pied Piper landing page
 
-[Open in browser](https://miptleha.github.io/sample-sites/Created/piper/)
+[Open in browser](https://miptleha.github.io/sample-sites/piper/)
 
 ![Pied Piper](Photo.jpg)
 

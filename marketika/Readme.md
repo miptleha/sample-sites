@@ -1,8 +1,8 @@
-https://miptleha.github.io/sample-sites/Created/marketika/
+https://miptleha.github.io/sample-sites/marketika/
 
 # Marketika landing page
 
-[Open in browser](https://miptleha.github.io/sample-sites/Created/marketika/)
+[Open in browser](https://miptleha.github.io/sample-sites/marketika/)
 
 ![Marketika](img/header.jpg)
 
@@ -20,7 +20,7 @@ npm i -g gulp-cli
 Download site source code, build and run site:
 ```
 git clone https://github.com/miptleha/sample-sites.git
-cd sample-sites/Created/marketika
+cd sample-sites/marketika
 npm i
 gulp watch
 ```

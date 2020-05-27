@@ -1,8 +1,8 @@
-https://miptleha.github.io/sample-sites/Created/minimo/
+https://miptleha.github.io/sample-sites/minimo/
 
 # Minimal blog
 
-[Open in browser](https://miptleha.github.io/sample-sites/Created/minimo/)
+[Open in browser](https://miptleha.github.io/sample-sites/minimo/)
 
 ![Minimo](img/minimo.jpg)
 
