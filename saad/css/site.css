@@ -21,6 +21,13 @@ body {
     border-radius: 4px;
 }
 
+.s-title {
+    color: #f97300;
+    font-size: 2.5rem;
+    margin: 2rem;
+    text-align: center;
+}
+
 .s-jumbotron {
     background: url("../images/headerback.jpg") 50% 50% no-repeat;
     background-size: cover;
@@ -69,12 +76,6 @@ body {
     text-align: center;
     color: #888;
 }
-.s-team-title {
-    color: #f97300;
-    font-size: 2.5rem;
-    margin: 2rem;
-    text-align: center;
-}
 .s-team-desc {
     padding: 2rem;
     border-left: 4px solid #10828C;
@@ -84,6 +85,14 @@ body {
 }
 .s-team-text {
     line-height: 2em;
+}
+
+.s-portfolio {
+    margin-top: 100px;
+}
+
+.s-portfolio a {
+    margin: 1em;
 }
 
 .s-fake {
