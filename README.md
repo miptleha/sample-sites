@@ -45,7 +45,7 @@ Freelancer ([video](https://youtu.be/Ie0thPtYFGw?t=1)) - Agency site
 
 CorporateBlue (html: [article](https://habr.com/ru/post/202408/) and [src](https://github.com/Mirantus/whitesquare-native/tree/master/www), bootstrap: [article](https://habr.com/ru/post/211032/) and [src](https://github.com/Mirantus/whitesquare-bootstrap), wordpress: [article](https://habr.com/ru/post/228523/) and [src](https://github.com/Mirantus/whitesquare-wordpress)) - Corporate site
 
-Website on bootstrap4 (html: [article](https://habr.com/ru/company/ruvds/blog/350758/) and [src](https://github.com/hayanisaid/bootstrap4-website))
+Saad on bootstrap4 (html: [article](https://habr.com/ru/company/ruvds/blog/350758/) and [src](https://github.com/hayanisaid/bootstrap4-website))
 
 Pied Piper ([course](https://stepik.org/course/38218/syllabus), execise 6.10)
 
