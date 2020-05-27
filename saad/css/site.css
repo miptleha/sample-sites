@@ -7,6 +7,7 @@ body {
 
 #header .navbar {
     background-color: #f97300;
+    font-size: 18px;
 }
 #header .navbar-brand {
     color: #f4f4f4;
