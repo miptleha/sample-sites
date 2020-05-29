@@ -1,5 +1,7 @@
 https://miptleha.github.io/sample-sites/minimo/
 
+https://vigilant-shirley-f6f3ec.netlify.app/
+
 # Minimal blog
 
 [Open in browser](https://miptleha.github.io/sample-sites/minimo/)
