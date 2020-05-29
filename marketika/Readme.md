@@ -1,5 +1,7 @@
 https://miptleha.github.io/sample-sites/marketika/
 
+https://sad-kare-579720.netlify.app/
+
 # Marketika landing page
 
 [Open in browser](https://miptleha.github.io/sample-sites/marketika/)
