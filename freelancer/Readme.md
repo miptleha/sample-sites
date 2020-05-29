@@ -1,5 +1,7 @@
 https://miptleha.github.io/sample-sites/freelancer/
 
+https://hardcore-poincare-60eb10.netlify.app/
+
 # Freelancer webstudio site
 
 [Open in browser](https://miptleha.github.io/sample-sites/freelancer/)
