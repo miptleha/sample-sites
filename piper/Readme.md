@@ -1,5 +1,7 @@
 https://miptleha.github.io/sample-sites/piper/
 
+https://pensive-beaver-175385.netlify.app/
+
 # Pied Piper landing page
 
 [Open in browser](https://miptleha.github.io/sample-sites/piper/)
