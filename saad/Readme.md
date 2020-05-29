@@ -1,6 +1,8 @@
 https://miptleha.github.io/sample-sites/saad/
 
-# Minimal blog
+https://friendly-spence-47bbc7.netlify.app/
+
+# Saad homepage
 
 [Open in browser](https://miptleha.github.io/sample-sites/saad/)
 
