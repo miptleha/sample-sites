@@ -17,6 +17,8 @@ Creating websites is not easy. It’s better to start with simple ones (like pos
 
 [Nauka](nauka)
 
+[Uber eats](uber-eats)
+
 To view sites locally, clone the repository and open the root folder in [Visual Studio Code](https://code.visualstudio.com/). Install the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension, then click the "Go Live" button at the bottom of the Visual Studio code. In the browser window that opens, go to the `Created` folder, and then the desired site.
 
 
@@ -33,6 +35,8 @@ To view sites locally, clone the repository and open the root folder in [Visual 
 [Minimo](https://freebiesbug.com/psd-freebies/minimo-minimal-blog-template/)
 
 [Nauka](https://www.figma.com/file/nDXdlmr1kCVnWEcnPWtfLg/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BD%D0%B0-%D0%91%D1%83%D1%82%D1%81%D1%82%D1%80%D0%B0%D0%BF?node-id=1%3A2)
+
+[Uber eats](https://www.figma.com/file/8lxQ3PGYTHQsCgTXnEJre8/Uber-Eats)
 
 
 `.sketch` files can be opened with free version of [Adobe XD](https://www.adobe.com/ru/products/xd.html) or [Lunacy](https://icons8.com/lunacy) on Windows.
@@ -56,4 +60,6 @@ Saad on bootstrap4 (html: [article](https://habr.com/ru/company/ruvds/blog/35075
 Pied Piper ([course](https://stepik.org/course/38218/syllabus), execise 6.10)
 
 Minimo ([video](https://webformyself.com/minikurs/bootstrap/index-subscribe.html))
+
+Uber Eats ([site](https://unruffled-lalande-4f027d.netlify.app/))
 
