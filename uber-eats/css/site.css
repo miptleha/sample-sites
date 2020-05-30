@@ -1,9 +1,9 @@
-/* Common */
+/* COMMON */
 * {
     box-sizing: border-box;
 }
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #1d1d1d;
     background-color: #f2f2f2;
     margin: 0;
@@ -13,7 +13,7 @@ a:hover {
     color: #004ed6;
 }
 
-/* Header */
+/* HEADER */
 .header {
     padding: 15px 0;
     background-color: #fff;
@@ -31,4 +31,58 @@ a:hover {
 }
 .link-basket {
     color: #262626;
+}
+
+/* SEARCH */
+.search {
+    margin-top: 50px;
+}
+.search input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 45, .3);
+    padding: 10px;
+    background-color: transparent;
+}
+
+/* REST-LIST */
+.rest-list {
+    margin-top: 50px;
+}
+.rest-list .title {
+    font-size: 22px;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #262626;
+    color: #fff;
+}
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #004ed6;
+}
+.footer > .container > .row {
+    border-bottom: 1px solid #979797;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.slash {
+    color: #49a144;
+}
+
+/* BACK TO TOP */
+.back-to-top {
+    background-color: #59bd5a;
+    border-radius: 2px;
+    color: #fff;
+    display: block;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    right: 16px;
+    bottom: 24px;
 }
