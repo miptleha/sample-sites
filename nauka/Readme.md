@@ -1,5 +1,7 @@
 https://miptleha.github.io/sample-sites/nauka/
 
+https://youthful-bhaskara-09cf45.netlify.app/
+
 # NLK
 
 [Open in browser](https://miptleha.github.io/sample-sites/nauka/)
