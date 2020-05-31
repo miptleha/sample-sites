@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -14,38 +14,35 @@
 <body>
     <!-- HEADER -->
     <header class="header">
-        <div class="container">
-            <div class="row between-xs middle-xs">
-                <div class="logo">
-                    <a href="#"><img src="img/logo.svg" alt="Лого"></a>
-                </div>
-                <div class="header-right row middle-xs">
-                    <div class="col-xs">
-                        <a href="#" class="link-enter">Войти</a>
-                    </div>
-                    <div class="col-xs"><a href="#" class="link-basket">
-                            <svg width="19" height="23" viewBox="0 0 19 23" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <g id="basket">
-                                    <path id="Rectangle-10" fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M18.9474 6.85876H0V18.6482C0 20.8574 1.79086 22.6482 4 22.6482H14.9474C17.1565 22.6482 18.9474 20.8574 18.9474 18.6482V6.85876ZM4 21.1482C2.61929 21.1482 1.5 20.029 1.5 18.6482V8.35876H17.4474V18.6482C17.4474 20.029 16.3281 21.1482 14.9474 21.1482H4Z"
-                                        fill="currentColor" />
-                                    <path id="Rectangle-3"
-                                        d="M6.01315 12.06V5.86806C6.01315 3.95686 7.56248 2.40753 9.47368 2.40753C11.3849 2.40753 12.9342 3.95686 12.9342 5.86806V12.06C12.9342 12.4742 13.27 12.81 13.6842 12.81C14.0984 12.81 14.4342 12.4742 14.4342 12.06V5.86806C14.4342 3.12844 12.2133 0.907532 9.47368 0.907532C6.73406 0.907532 4.51315 3.12844 4.51315 5.86806V12.06C4.51315 12.4742 4.84894 12.81 5.26315 12.81C5.67737 12.81 6.01315 12.4742 6.01315 12.06Z"
-                                        fill="currentColor" />
-                                </g>
-                            </svg>
-                        </a>
-                    </div>
+        <div class="container header-container">
+            <div class="header-logo">
+                <a href="#"><img src="img/logo.svg" alt="Лого"></a>
+            </div>
+            <div class="header-right">
+                <div class="link-enter"><a href="#">Войти</a></div>
+                <div class="link-basket">
+                    <a href="#">
+                        <svg width="19" height="23" viewBox="0 0 19 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="basket">
+                                <path id="Rectangle-10" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M18.9474 6.85876H0V18.6482C0 20.8574 1.79086 22.6482 4 22.6482H14.9474C17.1565 22.6482 18.9474 20.8574 18.9474 18.6482V6.85876ZM4 21.1482C2.61929 21.1482 1.5 20.029 1.5 18.6482V8.35876H17.4474V18.6482C17.4474 20.029 16.3281 21.1482 14.9474 21.1482H4Z"
+                                    fill="currentColor" />
+                                <path id="Rectangle-3"
+                                    d="M6.01315 12.06V5.86806C6.01315 3.95686 7.56248 2.40753 9.47368 2.40753C11.3849 2.40753 12.9342 3.95686 12.9342 5.86806V12.06C12.9342 12.4742 13.27 12.81 13.6842 12.81C14.0984 12.81 14.4342 12.4742 14.4342 12.06V5.86806C14.4342 3.12844 12.2133 0.907532 9.47368 0.907532C6.73406 0.907532 4.51315 3.12844 4.51315 5.86806V12.06C4.51315 12.4742 4.84894 12.81 5.26315 12.81C5.67737 12.81 6.01315 12.4742 6.01315 12.06Z"
+                                    fill="currentColor" />
+                            </g>
+                        </svg>
+                    </a>
                 </div>
             </div>
+        </div>
     </header>
 
     <!-- SEARCH -->
     <section class="search">
         <div class="container">
-            <div class="row search">
-                <input type="text" placeholder="Поиск по ресторанам и кухням">
+            <div class="search">
+                <input type="search" placeholder="Поиск по ресторанам и кухням">
             </div>
         </div>
     </section>
@@ -53,51 +50,126 @@
     <!-- REST-LIST -->
     <section class="rest-list">
         <div class="container">
-            <div class="row title">
-                <h2>Рестораны в Москве</h2>
-            </div>
+            <h2 class="title">Рестораны в Москве</h2>
             <div class="row">
                 <div class="container">
                     <div class="row between-xs">
-                        <div class="card col-lg-4">
-                            <div class="card-image">
-                                <img src="img/1-4.png" alt="Макдоналдс — Газетный">
-                            </div>
-                            <div class="card-title">Макдоналдс — Газетный</div>
-                            <div class="card-price">₽₽ • Бургеры</div>
-                            <div class="card-time">25 - 35 мин</div>
+                        <div class="col-lg-4">
+                            <a href="cafe.html">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/mac.jpg" alt="Макдоналдс — Газетный">
+                                    </div>
+                                    <div class="card-title">Макдоналдс — Газетный</div>
+                                    <div class="card-price">₽₽ • Бургеры</div>
+                                    <div class="card-time">25 - 35 мин</div>
+                                </div>
+                            </a>
                         </div>
-                        <div class="card col-lg-4">
-                            <div class="card-image">
-                                <img src="img/1-4.png" alt="Макдоналдс — Газетный">
-                            </div>
-                            <div class="card-title">Макдоналдс — Газетный</div>
-                            <div class="card-price">₽₽ • Бургеры</div>
-                            <div class="card-time">25 - 35 мин</div>
+
+                        <div class="col-lg-4">
+                            <a href="cafe.html">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/dim.jpg" alt="DimSum & Co — ЦДМ">
+                                    </div>
+                                    <div class="card-title">DimSum & Co — ЦДМ</div>
+                                    <div class="card-price">₽₽ • Японская • Китайская • Азиатская</div>
+                                    <div class="card-time">40 - 50 мин</div>
+                                </div>
+                            </a>
                         </div>
-                        <div class="card col-lg-4">
-                            <div class="card-image">
-                                <img src="img/1-4.png" alt="Макдоналдс — Газетный">
-                            </div>
-                            <div class="card-title">Макдоналдс — Газетный</div>
-                            <div class="card-price">₽₽ • Бургеры</div>
-                            <div class="card-time">25 - 35 мин</div>
+
+
+                        <div class="col-lg-4">
+                            <a href="cafe.html">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/dvig.jpg" alt="ДвижОК — Манежная">
+                                    </div>
+                                    <div class="card-title">ДвижОК — Манежная</div>
+                                    <div class="card-price">₽ • Американская • Европейская</div>
+                                    <div class="card-time">35 - 45 мин</div>
+                                </div>
+                            </a>
                         </div>
-                        <div class="card col-lg-4">
-                            <div class="card-image">
-                                <img src="img/1-4.png" alt="Макдоналдс — Газетный">
-                            </div>
-                            <div class="card-title">Макдоналдс — Газетный</div>
-                            <div class="card-price">₽₽ • Бургеры</div>
-                            <div class="card-time">25 - 35 мин</div>
+                        
+
+                        <div class="col-lg-4">
+                            <a href="cafe.html">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/nya.jpg" alt="НЯ — NHA">
+                                    </div>
+                                    <div class="card-title">НЯ — NHA</div>
+                                    <div class="card-price">₽₽ • Вьетнамская</div>
+                                    <div class="card-time">30 - 40 мин</div>
+                                </div>
+                            </a>
                         </div>
-                        <div class="card col-lg-4">
-                            <div class="card-image">
-                                <img src="img/1-4.png" alt="Макдоналдс — Газетный">
-                            </div>
-                            <div class="card-title">Макдоналдс — Газетный</div>
-                            <div class="card-price">₽₽ • Бургеры</div>
-                            <div class="card-time">25 - 35 мин</div>
+                        
+
+                        <div class="col-lg-4">
+                            <a href="cafe.html">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/toch.jpg" alt="Точка Дзы — Цветной">
+                                    </div>
+                                    <div class="card-title">Точка Дзы — Цветной</div>
+                                    <div class="card-price">₽₽ • Вьетнамская</div>
+                                    <div class="card-time">40 - 50 мин</div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="col-lg-4">
+                            <a href="cafe.html">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/cin.jpg" alt="Cinnabon">
+                                    </div>
+                                    <div class="card-title">Cinnabon</div>
+                                    <div class="card-price">₽ • Выпечка • Десерты • Капкейки</div>
+                                    <div class="card-time">25 - 35 мин</div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <a href="cafe.html">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/piz.jpg" alt="PIZZELOVE">
+                                    </div>
+                                    <div class="card-title">PIZZELOVE</div>
+                                    <div class="card-price">₽₽ • Пицца</div>
+                                    <div class="card-time">15 - 25 мин</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="cafe.html">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/zu.jpg" alt="Zю кафе — Тверская">
+                                    </div>
+                                    <div class="card-title">Zю кафе — Тверская</div>
+                                    <div class="card-price">₽₽ • Японская</div>
+                                    <div class="card-time">25 - 35 мин</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a href="cafe.html">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="img/bar.jpg" alt="Bar BQ Cafe — Манежная">
+                                    </div>
+                                    <div class="card-title">Bar BQ Cafe — Манежная</div>
+                                    <div class="card-price">₽₽₽ • Европейская</div>
+                                    <div class="card-time">30 - 40 мин</div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -116,7 +188,7 @@
                     <div><select name="" id=""></select></div>
                     <div><span class="slash">#</span>UberEats</div>
                     <div>
-                        <a href="#" class="facebook-link">
+                        <a href="cafe.html" class="facebook-link">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <g id="ic/24/social/facebook">
@@ -202,7 +274,7 @@
         </div>
     </footer>
 
-    <!-- Back to top -->
+    <!-- BACK TO TOP -->
     <a href="#" class="back-to-top">
         <div class="row">
             <div class="col-xs-3">

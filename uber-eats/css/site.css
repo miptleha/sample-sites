@@ -9,27 +9,42 @@ body {
     margin: 0;
     padding: 0;
 }
+a {
+    outline: none !important;
+    text-decoration: none !important;
+}
 a:hover {
-    color: #004ed6;
+    color: #004ed6 !important;
 }
 
 /* HEADER */
 .header {
-    padding: 15px 0;
     background-color: #fff;
     box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
 }
-.link-enter {
-    display: inline-block;
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo {
+    margin: 26px 0;
+}
+.header-right {
+    margin: 22px 0;
+    flex-basis: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link-enter > a {
     font-weight: 500;
     border: 1px solid #e0e0e0;
     border-radius: 2px;
-    text-decoration: none;
     color: #1d1d1d;
-    padding: 14px 20px;
-    margin-right: 16px;
+    padding: 12px 20px;
+    font-size: 13px;
 }
-.link-basket {
+.link-basket > a {
     color: #262626;
 }
 
@@ -40,8 +55,9 @@ a:hover {
 .search input {
     width: 100%;
     border: none;
-    border-bottom: 1px solid rgba(0, 0, 45, .3);
-    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 45, 0.3);
+    padding: 10px 0;
+    color: #626262;
     background-color: transparent;
 }
 
@@ -51,6 +67,37 @@ a:hover {
 }
 .rest-list .title {
     font-size: 22px;
+    font-weight: normal;
+}
+.rest-list a, .rest-list a:hover {
+    color: #1d1d1d !important;
+}
+.card {
+    padding: 0;
+    margin: 0;
+}
+.card-title {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 16px 0 0 0;
+}
+.card-price {
+    color: #626262;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 4px 0 0 0;
+}
+.card-time {
+    font-size: 13px;
+    line-height: 21px;
+    margin: 4px 0 20px 0;
+}
+.card:hover {
+    background-color: rgba(0, 0, 45, 0.05);
+}
+.card-image img {
+    width: 100%;
+    height: auto;
 }
 
 /* FOOTER */
@@ -60,10 +107,6 @@ a:hover {
 }
 .footer a {
     color: #fff;
-    text-decoration: none;
-}
-.footer a:hover {
-    color: #004ed6;
 }
 .footer > .container > .row {
     border-bottom: 1px solid #979797;
