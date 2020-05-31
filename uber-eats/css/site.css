@@ -78,25 +78,30 @@ a:hover {
 .card {
     padding: 0;
     margin: 0;
+    transition: transform 0.1s linear;
+    border-radius: 2px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.card:hover {
+    transform: scale(102%, 102%);
+    background-color: rgba(0, 0, 45, 0.03);
 }
 .card-title {
     font-size: 16px;
     line-height: 24px;
-    margin: 16px 0 0 0;
+    margin: 16px 0 0 4px;
 }
 .card-price {
     color: #626262;
     font-size: 14px;
     line-height: 21px;
-    margin: 4px 0 0 0;
+    margin: 4px 0 0 4px;
 }
 .card-time {
     font-size: 13px;
     line-height: 21px;
-    margin: 4px 0 20px 0;
-}
-.card:hover {
-    background-color: rgba(0, 0, 45, 0.05);
+    margin: 4px 0 0 4px;
 }
 .card-image img {
     width: 100%;
@@ -116,6 +121,11 @@ a:hover {
     padding: 40px 0 20px;
     border-bottom: 1px solid rgba(255, 255, 255, .4);
 }
+@media (max-width: 767px) {
+    .footer-block {
+        padding: 20px 0 0;
+    }    
+}
 .footer-block:last-child {
     border-bottom: none;
 }
@@ -132,8 +142,22 @@ a:hover {
     display: flex;
     justify-content: center;
 }
-.footer-block.mobile a:not(:last-child) {
-    margin-right: 40px;
+.footer-block.mobile img {
+    width: 100%;
+    height: auto;
+}
+.footer-block.mobile .footer-item {
+    display: flex;
+    justify-content: center;
+}
+.footer-block.mobile .footer-item .mobile-1 {
+    flex: 0 1 120px;
+}
+.footer-block.mobile .footer-item .mobile-2 {
+    flex: 0 1 135px;
+}
+.footer-block.mobile .footer-item .mobile-spacer {
+    flex: 0 1 40px;
 }
 .lang-select {
     position: relative;
