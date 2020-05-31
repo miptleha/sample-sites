@@ -129,8 +129,14 @@ a:hover {
 .footer-block:last-child {
     border-bottom: none;
 }
+.hashtag {
+    font-size: 16px;
+}
 .slash {
     color: #49a144;
+}
+.social-link {
+    margin-right: 10px;
 }
 .footer-block.copy {
     font-size: 11px;
