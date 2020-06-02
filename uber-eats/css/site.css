@@ -1,7 +1,4 @@
 /* COMMON */
-* {
-    box-sizing: border-box;
-}
 body {
     font-family: "Roboto", sans-serif;
     color: #1d1d1d;
@@ -221,24 +218,74 @@ a:hover {
 }
 
 /* CAFE.HTML */
-/* CAFE-HEADER */
+/* CAFE-HERO */
+.cafe-hero {
+    height: 364px;
+    position: relative;
+}
 .cafe-hero .img-container {
     height: 364px;
     overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+@media (max-width:767px) {
+    .cafe-hero {
+        height: 300px;
+    }
+    .cafe-hero .img-container {
+        height: 250px;
+    }
 }
 .cafe-hero img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
+}
+@media (min-width:1100px) {
+    .cafe-hero img {
+        width: 100%;
+        height: auto;
+    }
+}
+.cafe-hero .card-parent {
+    display: inline-block;
+    position: relative;
+    margin-top: 80px;
 }
 .cafe-hero .card {
     border-radius: 2px;
     background-color: #fff;
     box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
     padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .cafe-hero .card-title {
     font-size: 36px;
-    margin-top: 40px;
+    margin: 0 auto 40px;
+}
+@media (max-width:767px) {
+    .cafe-hero .card-parent {
+        display: block;
+        margin-top: 0;
+        padding-top: 100px;
+    }
+    .cafe-hero .card-title {
+        font-size: 24px;
+        margin: 0 auto 40px;
+    }
+}
+.cafe-hero .card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cafe-hero .card-price {
+    font-size: 14px;
+    color: #626262;
 }
 .cafe-hero .card-time {
     background-color: #262626;
@@ -247,11 +294,20 @@ a:hover {
     padding: 8px 16px;
 }
 
-.cafe-nav ul {
-    list-style: none;
-    padding-left: 80px;
-    height: 80px;
+/* CAFE-NAV */
+.cafe-nav {
     border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+    height: 50px;
+    padding-top: 30px;
+}
+@media (max-width: 767px) {
+    .cafe-nav {
+        display: none;
+    }
+}
+.cafe-nav ul {
+    margin: 0;
+    list-style: none;
 }
 .cafe-nav li {
     display: inline-block;
@@ -265,16 +321,61 @@ a:hover {
     color: #327430;
 }
 
+/* CAFE-DISHES */
+.cafe-dishes {
+    padding-top: 30px;
+}
+@media (min-width: 992px) {
+    .cafe-dishes {
+        margin-bottom: 40px;
+    }
+}
+.cafe-dishes a, .cafe-dishes a:hover {
+    color: #262626 !important;
+}
+.cafe-dishes .title {
+    font-size: 22px;
+}
+.cafe-dishes .line {
+    display: none;
+}
+@media (max-width: 767px) {
+    .cafe-dishes .title {
+        text-align: center;
+    }
+    .cafe-dishes .line {
+        margin: 11px auto;
+        width: 50px;
+        display: block;
+        border-bottom: 1px solid #757575;
+    }
+}
 .cafe-dishes .card {
     border: 1px solid rgba(117, 117, 117, 0.2);
     border-radius: 2px;
-
+    margin-bottom: 50px;
+    height: 160px;
+    display: flex;
+    transition: transform 0.1s linear;
+}
+.cafe-dishes .card:hover {
+    transform: scale(102%, 102%);
+    background-color: rgba(0, 0, 45, 0.03);
+}
+.cafe-dishes .card-info {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px;
 }
 .cafe-dishes .card-title {
     font-size: 16px;
 }
 .cafe-dishes .card-text {
+    margin-top: 4px;
     color: #626262;
+    font-size: 13px;
 }
 .cafe-dishes .card-price {
     font-size: 15px;
@@ -282,8 +383,22 @@ a:hover {
 }
 .cafe-dishes .card-foto {
     border-radius: 2px;
+    position: relative;
+    height: 160px;
 }
 .cafe-dishes .card-foto img {
-    width: 100%;
-    height: auto;
+    height: 100%;
+}
+@media (max-width: 767px) {
+    .cafe-dishes .card-title {
+        font-size: 14px;
+    }
+    .cafe-dishes .card {
+        border: none;
+        border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+        height: 100px;
+    }
+    .cafe-dishes .card-foto {
+        height: 100px;
+    }
 }
