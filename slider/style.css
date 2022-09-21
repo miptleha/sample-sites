@@ -5,6 +5,7 @@
   width: 310px;
   height: 15px;
   margin: 5px;
+  touch-action: none;
 }
 
 .thumb {
@@ -16,4 +17,5 @@
   top: -5px;
   background: blue;
   cursor: pointer;
+  touch-action: none;
 }
