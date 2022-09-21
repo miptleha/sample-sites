@@ -19,6 +19,10 @@ Creating websites is not easy. It’s better to start with simple ones (like pos
 
 [Uber eats](uber-eats)
 
+## Controls
+
+[Slider](slider)
+
 To view sites locally, clone the repository and open the root folder in [Visual Studio Code](https://code.visualstudio.com/). Install the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension, then click the "Go Live" button at the bottom of the Visual Studio code. In the browser window that opens, go to the `Created` folder, and then the desired site.
 
 
